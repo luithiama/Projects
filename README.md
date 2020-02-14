@@ -24,3 +24,4 @@ We wanted to print the step count to inform the user of how many steps (accepted
 The PowerPoint presentation should contain most of the rest of the required information for how to operate the maze, as well as problems we encountered.
 The .asm files also contain comments for how the code works that was cut out of the PowerPoint presentation for simplification's sake.
 The PowerPoint was originally built in Google Sheets and then downloaded as a .pptx. It may contain a few formatting abnormalities because of this.
+The virtual lc3 environments were not with the labels in MAZE Start.asm, so the labels were removed from the .FILL and replaced with the actual locations in memory that they were supposed to be filled with.
