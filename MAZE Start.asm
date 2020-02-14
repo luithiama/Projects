@@ -56,7 +56,7 @@ RNDMp	ADD R6 R6 x5
 RNDM5	ADD R7 R3 R7	;multiplies the "random" number by 5 to ensure the "random" places are the first line of a block of code
 		ADD R6 R6 x-1
 		BRnp RNDM5
-		ADD R3 R3 -1
+		ADD R3 R3 x-1
 		ADD R7 R7 x0
 		BRnz	RNDMp	;makes sure the added number starts off positive
 		BRp		REDUCE
