@@ -103,12 +103,12 @@ StartsEnd	AND R0 R0 x0
 	;;go to the random starting place in the maze
 		RET		
 
-redirect	.FILL EXAMPLE2
-redirect2	.FILL RandExit
-redirect3	.Fill RandStart		
-Steves		.FILL x2000
+redirect	.FILL x316B
+redirect2	.FILL x31CA
+redirect3	.Fill x31CB	
+Steves	        .FILL x2000
 Matt		.FILL x3200
-MAX			.FILL xF830		;equals decimal -2000, which is the length of the code for the maze
+MAX		.FILL xF830		;equals decimal -2000, which is the length of the code for the maze
 INTRO		.STRINGZ "Traverse the maze. Find the ladder to exit, (which may drop behind you in a hall). Use lowercase A and D to turn. Use W to move forward. Type your name and press enter to continue: "
 EXAMPLE1	.STRINGZ "This is a wall, with a wall to the left and a hallway to the right. Press enter to continue."
 EXAMPLE2	.STRINGZ "This is a hallway, with a hallway to the left and a wall to the right. Press enter to contine."
